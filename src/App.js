@@ -13,7 +13,7 @@ function App() {
       <CounterHooks initialCount={0} />
       Counter
       <Counter initialCount={0} />
-      <button  onClick={()=> setTheme(prevTheme => {return prevTheme === 'red' ? 'blue' : 'red'})}>Toogle Theme</button>
+      <button  onClick={()=> setTheme(prevTheme => {return prevTheme === 'green' ? 'blue' : 'green'})}>Toogle Theme</button>
     </ThemeContext.Provider>
   );
 }
