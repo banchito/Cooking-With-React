@@ -1,0 +1,13 @@
+.recipe-list{
+    border-right: 1px solid black;
+
+    /* border goes all the way to the bottom, fill the entire heigth of the div */
+    min-height: 100vh; 
+    width: 50%;
+}
+
+.recipe-list__add-recipe-btn-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
